@@ -1,0 +1,10 @@
+send it data using:
+
+http://127.0.0.1/endpoint.php/postdata?utc=12345678&n=12345.678&w=123456.789
+
+A correct post will return a JSON string as text.
+
+To view it live, pull show.html up in a browser.  It updates every second reading the 'gps.txt'
+file while the postdata writes to.
+
+Jerry
