@@ -110,7 +110,7 @@ echo "The email message was sent.";
 
 function getaddress($lat, $lng)
 {
-	$url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' . trim($lat) . ',' . trim($lng) . '&key=AIzaSyCdyer5aAaj0UYDo2vruteqH6JJ16I0juE';
+	$url = 'https://maps.googleapis.com/maps/api/geocode/json?latlng=' . trim($lat) . ',' . trim($lng) . '&key=';
 	$json = @file_get_contents($url);
 	$data = json_decode($json);
 	$status = $data->status;
